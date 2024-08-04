@@ -1,3 +1,5 @@
+#### OBS: Para obter o modelo trainado, por favor. Acesse o arquivo https://huggingface.co/luizalencar/NLP-TPFINAL-LLM/blob/main/tpfinal-model_checkpoint.zip, e extraia os arquivos
+
 ## 1. Relatório de Pré-processamento 
 
 1.1. Descrição detalhada das etapas de download, extração e pré-processamento dos textos das legislações.
