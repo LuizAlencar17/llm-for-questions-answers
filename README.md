@@ -1,4 +1,7 @@
-#### OBS: Para obter o modelo trainado, por favor. Acesse o arquivo https://huggingface.co/luizalencar/NLP-TPFINAL-LLM/blob/main/tpfinal-model_checkpoint.zip, e extraia os arquivos
+#### 1° OBS: Para obter o modelo trainado, por favor. Acesse o arquivo https://huggingface.co/luizalencar/NLP-TPFINAL-LLM/blob/main/tpfinal-model_checkpoint.zip, e extraia os arquivos
+
+#### 2° OBS: Para obter uma melhor experiência utilize o Google Colab, não esqueça de fazer upload de todos os arquivos da pasta "sample_data". Isso é fundamental! ;)
+
 
 ## 1. Relatório de Pré-processamento 
 
