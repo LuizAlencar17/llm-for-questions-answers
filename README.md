@@ -211,17 +211,30 @@ history
 
 3.2. Relatório de desempenho do modelo, incluindo métricas de avaliação e análise de resultados.
 
-- O modelo foi treinado com 50 épocas, e suas métricas de avaliação foram as seguintes:
+- - A participação de treino contém 900 (90%) de perguntas e respostas, enquanto a de teste ficou com 100 (10%) da base.
 
-Duração de treinamento': 956.2165; 
 
-Quantidade de instâncias de treino por segundo: 6.013; 
+- O modelo foi treinado com 50 épocas, e suas métricas de avaliação na partição de traino foram as seguintes:
 
-Quantidade de passos de treino por segundo: 1.516; 
+```python 
+{'train_runtime': 1007.3974,
+ 'train_samples_per_second': 5.757,
+ 'train_steps_per_second': 1.439,
+ 'total_flos': 2281122614476800.0,
+ 'train_loss': 1.3643781148976293,
+ 'epoch': 50.0}
+```
 
-Flos total: 2261457764352000.0;
+- As métricas de avaliação na partição de teste foram as seguintes:
 
-Loss do treino: 1.3393702855603449.
+```python 
+{'eval_loss': 13.955838203430176,
+ 'eval_perplexity': 1150650.75,
+ 'eval_runtime': 10.5195,
+ 'eval_samples_per_second': 1.141,
+ 'eval_steps_per_second': 0.19,
+ 'epoch': 50.0}
+```
 
 - Em relação à análise de resultados, a figura abaixo mostra exemplos de entradas e predições realizadas pelo modelo após o treinamento.
 
